@@ -1,4 +1,4 @@
-name: Dom_game
+name: Animation
 
 on: [push, pull_request]
 
