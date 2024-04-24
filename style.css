@@ -1,0 +1,42 @@
+button {
+  background-color: #5FD0FF;
+  font-size: large;
+  border-radius: 50dvh;
+  width: 100px;
+  margin: 10px;
+}
+
+#app {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  border: 202020;
+  padding: 10px;
+  background-color: #262421;
+  border-radius: 10px;
+}
+
+#text {
+  transition: height 1s ease, padding 1s ease;
+  background-color: azure;
+  border-radius: 10px;
+}
+
+.expanded {
+  height: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid gray;
+}
+
+.collapsed {
+  height: 0;
+  overflow: hidden;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border: none;
+}
